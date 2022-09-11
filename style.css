@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: goldenrod;
+}
+header{
+    background-color: gray;
+}
+.logo{
+    border-radius: 50%;
+    padding: 0;
+    max-width: 5%;
+}
+.name{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    color: maroon;
+    border: 5px solid black;
+    border-radius: 20%;
+    z-index: 1;
+    font-size: 25px;
+}
+.name:hover{
+    color: goldenrod;
+}
+.arrangment .welcome{
+    background-color: maroon;
+    color: gray;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    border-radius: 8px;
+}
+.arrangment h2{
+    font-size: 50px;
+    margin-left: -25px;
+    margin-right: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.arrangment h2 span{
+    font-size: 1.3em;
+}
+.arrangment h2:hover{
+    color: goldenrod;
+}
+/* .main-nav*/
+
+.main-nav{
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+    max-height: 70px;
+}
+.main-nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.main-nav ul li{
+    width: 200px;
+    margin: 20px;
+    padding: 5px;
+   text-align: center;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: maroon;
+}
+.main-nav ul li a:hover{
+    color: goldenrod;
+    padding: padding-left: 8px;
+    
+}
+.menu{
+    text-decoration: none;
+    display: inline-flex;
+    
+}
+.menu ul li img{
+    width: 150px;
+    margin: 30px;
+    padding: 30px;
+}
+
+/* section*/
+
+
+section{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+section p{
+    line-height: 1.8em;
+}
+.order h2{
+    font-size: 32px;
+}
+form input{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 24px;
+    border: 4px solid gray;
+}
+.order{
+
+}
+
+/* main  */
+
+
+main{
+    max-width: 100%;
+    width: 1500px;
+    margin: 40px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+article h2{
+    font-size: 28px;
+}
+article p{
+    line-height: 1.8em;
+}
+article{
+    text-align: center;
+}
+.images{
+    text-align: center;
+    margin: 80px 0;
+}
+.images li{
+    display: inline-block;
+    width: 300px;
+    max-width: 20px 5%;   
+}
+.images li img{
+    max-width: 250%;
+}
+
+/* footer*/
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    
+}
+
+.footer{
+    background-color: grey;
+    padding: 50px 0;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: maroon;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: maroon;
+    text-decoration: none;
+    font-weight: 300;
+    color: maroon;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: goldenrod;
+    padding-left: 8px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: maroon;
+    transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+    color: goldenrod;
+}
+
+/* pseudo classes*/
+
+.images li:hover{
+    position: relative;
+    top: -5px;
+}
+form input:focus{
+    border: 3px dashed grey;
+    outline: none;
+}
+form input:valid{
+    border: 4px solid greenyellow;
+}
